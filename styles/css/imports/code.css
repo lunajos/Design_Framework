@@ -1,0 +1,28 @@
+code{	
+	background-color: #E5E5E5;
+    padding:3px;
+    padding-left:7px;
+    padding-right:7px;
+    border-radius: 2px;
+    font-family: monospace;
+  	white-space: pre;
+}
+kbd{
+	background-color: blue;
+    padding:3px;
+    padding-left:7px;
+    padding-right:7px;
+    border-radius: 2px;
+    font-family: monospace;
+  	white-space: pre;
+}
+
+/*pre.code {
+    white-space: pre-wrap;
+}
+pre.code:before {
+    counter-reset: listing;
+}
+pre.code code {
+    counter-increment: listing;
+}*/

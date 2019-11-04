@@ -1,0 +1,34 @@
+[role=tabpanel][aria-hidden=true] {
+ 	display: none;
+}
+[role="tab"][aria-selected="true"]{
+	border-bottom-style: solid;
+	border-bottom-width: 2px;
+	border-bottom-color: #FCA311;
+}
+
+.tablist{
+	cursor: pointer;
+	margin: auto;
+	width: 75%;	
+}
+
+.tablist li{
+	list-style-type: none;
+	padding-bottom:10px;
+	margin: 0px;
+}
+
+.tabpanel{
+	margin: auto;
+	min-height: 400px;
+	width: 70%;
+	padding-top: 20px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	padding-left: 50px;
+	/*box-shadow: 0px 10px 5px 0px #E5E5E5;*/
+}
+.tabpanel img{
+	width: 500px;
+}

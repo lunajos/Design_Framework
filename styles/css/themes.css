@@ -1,0 +1,79 @@
+/*.sidebar{
+	position: -webkit-sticky;  Safari   
+	position: sticky;
+	top: 0;
+	z-index: 99;
+}*/
+
+section{
+	padding-left: 50px;
+	/*height: 100vh;*/
+	/*overflow-y: scroll;*/
+}
+.group h1{
+	border-bottom: solid;
+	border-width: 1px;
+}
+body{
+	background-color: #EEEEEE;	
+
+}
+main{
+	background-color: #FFFFFF;
+
+
+}
+aside{
+	background-color: #FFFFFF;	
+}
+
+.sidebar{
+	width: 300px;
+	height: 10%;
+	overflow-y: scroll;
+	padding-top: 20px;
+	padding-left: 20px;
+	/*margin-top: 200px;*/
+	margin-left: 50px;
+	background: #FFFFFF;
+	position: sticky;
+	position: -webkit-sticky;  
+	top: 30px;
+	overflow-x: hidden;
+	float: left;
+	box-shadow: 0px 5px 5px 0px #E5E5E5;
+}
+.main{
+	margin-left: 400px;
+	margin-right: 30px;
+	background: #FFFFFF;
+	box-shadow: 0px 5px 5px 0px #E5E5E5;
+	padding-bottom: 50px;
+	padding-right: 50px;
+	padding-top: 50px;
+}
+details > summary{
+	padding-left: 20px;
+	border-left: solid;
+	border-width: 1px;
+	cursor: pointer;
+}
+
+details[open] summary{
+	border-color: #d81b5f;
+}
+
+details > ul{
+	margin-left: 20px;
+	border-left: solid;
+	border-color: #d81b5f;
+	border-width: 1px;
+}
+
+details > summary::-webkit-details-marker{
+  display: none;
+}
+
+h2 a, h1 a{
+	color: #000000;
+}

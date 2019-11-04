@@ -1,0 +1,59 @@
+html, body, h1, h2, h3, h4, h5, h6{
+	margin: 0px;
+	font-family: 'Varela Round', sans-serif;
+}
+
+main{
+	margin: 20px 50px 20px 50px;
+}
+aside{
+	min-height: 50vh;
+	max-height: 90vh;
+	padding-top: 100px;
+	padding-left: 100px;	
+	overflow-y: scroll;
+}
+
+details{
+	padding-top: 10px;
+	padding-bottom: 15px;
+}
+details li{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+summary{
+	font-size: 1.3em;
+}
+h1{
+	font-size: 2em;
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+h2, h3, h4{
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+h5, h6{
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+li{
+	list-style-type: none;
+}
+a{
+	text-decoration: none;
+}
+p{
+	line-height: 2;
+}
+.i{
+	font-style: italic;
+}
+.b{
+	font-weight: bold;
+}
+.c{
+	text-align: center;
+}

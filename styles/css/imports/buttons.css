@@ -1,0 +1,35 @@
+.btn-primary{
+	background-color: #FFBC42;
+}
+.btn-secondary{
+	background-color: #D81159;
+	color: #FFFFFF;
+}
+.btn-tertiary{
+	background-color: #8F2D56;
+	color: #FFFFFF;
+}
+
+.btn-sm{
+	padding: 10px 15px 10px 15px;
+}
+.btn-med{
+	padding: 10px 15px 10px 15px;
+	font-weight: bolder;
+}
+.btn-lg{
+	padding: 15px 25px 15px 25px;
+	font-weight: bolder;
+}
+
+[class|=btn]{
+	border-style: none;
+	border-radius: 3px;
+	margin: 5px 10px 5px 10px;
+	/*box-shadow: 3px 3px 5px 3px #E8E8E8;*/
+	box-shadow: 5px 5px 20px 5px #E8E8E8;
+}
+
+[class|=btn]:hover{
+	box-shadow: 5px 5px 10px 5px #E8E8E8;
+}
